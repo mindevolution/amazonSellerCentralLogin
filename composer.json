@@ -1,0 +1,21 @@
+{
+	"name": "root/amazon-seller-central-login",
+	"description": "Use php curl login amazon sellercentral",
+	"authors": [
+	{
+		"name": "HeZhiLi",
+		"email": "zhili850702@gmail.com"
+	}
+	],
+		"minimum-stability": "dev",
+		"require": {
+			"php": ">=5.4.0"
+
+		},
+		"autoload": {
+			"psr-0": {
+				"AmazonSellerCentral\\": "src/"
+			}
+
+		}
+}
